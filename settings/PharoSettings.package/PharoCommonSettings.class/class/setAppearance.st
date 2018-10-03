@@ -1,6 +1,6 @@
 initialization
 setAppearance
 	<script>
-	self removeLogo.
-	self launchThemeProcess.
-	self setRandomBackground
+	SystemVersion current major >= 7
+		ifTrue: [ PharoDarkTheme ]
+		ifFalse: [ Pharo3DarkTheme ]

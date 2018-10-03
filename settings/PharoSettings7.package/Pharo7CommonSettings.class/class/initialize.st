@@ -1,5 +1,3 @@
 initialization
 initialize
-	self
-		installQuickAccess;
-		installSpecRepository
+	"TODO"
