@@ -10,7 +10,7 @@ initializeIcebergSettings
 				yourself).
 	
 	"Use wy SSH key"
-	IceCredentialsProvider useCustomSsh: true.
+	IceCredentialsProvider useCustomSsh: false.
 	
 	"Make sur Metacello integration is on, even in Pharo 6"
 	Iceberg enableMetacelloIntegration: true.
