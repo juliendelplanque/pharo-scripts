@@ -1,6 +1,6 @@
 initialization
 setAppearance
 	<script>
-	SystemVersion current major >= 7
+	(SystemVersion current major >= 7
 		ifTrue: [ PharoDarkTheme ]
-		ifFalse: [ Pharo3DarkTheme ]
+		ifFalse: [ Pharo3DarkTheme ]) beCurrent
