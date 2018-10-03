@@ -5,7 +5,7 @@ initializeIcebergSettings
 	((IceRepository respondsTo: #shareRepositoriesBetweenImages:) ifTrue: [ IceRepository ] ifFalse: [ IceLibgitRepository ])
 		shareRepositoriesBetweenImages: true;
 		sharedRepositoriesLocation:
-			((StartupPreferencesLoader preferencesGeneralFolder / 'GitRepositories')
+			((self sharedRepositoryLocation)
 				ensureCreateDirectory;
 				yourself).
 	
