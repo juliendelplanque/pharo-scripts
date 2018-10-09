@@ -1,7 +1,7 @@
 mirage
 installMirage
 	Metacello new
-		repository: 'github://JulienDelplanque/Mirage/src';
+		repository: 'github://JulienDelplanque/Mirage:dev/src';
 		baseline: 'Mirage';
 		load.
 	MIModel
