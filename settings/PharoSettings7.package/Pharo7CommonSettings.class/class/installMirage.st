@@ -10,4 +10,4 @@ installMirage
 	MITaskbarTasksHighlighter activate: true.
 	MIWindowsHighlighter activate: true.
 	MICarousel activate: true.
-	MICarouselSettings thumbnailUpdateTime: 1 second.
+	MICarouselSettings thumbnailUpdateTime: 1.
