@@ -9,5 +9,5 @@ installMirage
 		windowsOrderingMethod: #useWindowsOrderedByWorld.
 	MITaskbarTasksHighlighter activate: true.
 	MIWindowsHighlighter activate: true.
-	MICarousel activate: true.
+	MICarousel activate: false.
 	MICarouselSettings thumbnailUpdateTime: 1.
