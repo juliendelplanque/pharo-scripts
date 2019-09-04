@@ -1,4 +1,5 @@
 initialization
 initialize
 	"TODO"
-	self installMirage
+	self installMirage.
+	self installMetaProgrammingLibrary
